@@ -1,4 +1,5 @@
 import React from 'react';
+import { defaultData } from '../../utils/utils';
 import SocialComponent from '../socials component';
 import './index.css';
 
@@ -13,7 +14,7 @@ const CardComponent = () => {
             <img
               alt="profile"
               className="pictureView"
-              src="https://welchdentalgroup.com/wp-content/uploads/2016/08/laughinggas.jpg"
+              src={defaultData[0].image}
             />
           </div>
           <div class="sectionTwo">
@@ -23,8 +24,8 @@ const CardComponent = () => {
                 <p class="text2">REMARKS:</p>
               </div>
               <div class="textRight">
-                <p class="text3">ADJEKUGHENE DORCAS</p>
-                <p class="text4">A very good developer</p>
+                <p class="text3">{defaultData[0].name}</p>
+                <p class="text4">{defaultData[0].remark}</p>
               </div>
             </div>
             <SocialComponent />
@@ -37,7 +38,7 @@ const CardComponent = () => {
             <img
               alt="profile"
               className="pictureView"
-              src="https://welchdentalgroup.com/wp-content/uploads/2016/08/laughinggas.jpg"
+              src={defaultData[1].image}
             />
           </div>
           <section class="sectionTwo">
@@ -47,8 +48,8 @@ const CardComponent = () => {
                 <p class="text2">REMARKS:</p>
               </div>
               <div class="textRight">
-                <p class="text3">ADJEKUGHENE DORCAS</p>
-                <p class="text4">A very good developer</p>
+                <p class="text3">{defaultData[1].name}</p>
+                <p class="text4">{defaultData[1].remark}</p>
               </div>
             </div>
             <SocialComponent />
@@ -61,7 +62,7 @@ const CardComponent = () => {
             <img
               alt="profile"
               className="pictureView"
-              src="https://welchdentalgroup.com/wp-content/uploads/2016/08/laughinggas.jpg"
+              src={defaultData[2].image}
             />
           </div>
           <section class="sectionTwo">
@@ -71,8 +72,8 @@ const CardComponent = () => {
                 <p class="text2">REMARKS:</p>
               </div>
               <div class="textRight">
-                <p class="text3">ADJEKUGHENE DORCAS</p>
-                <p class="text4">A very good developer</p>
+                <p class="text3">{defaultData[2].name}</p>
+                <p class="text4">{defaultData[2].remark}</p>
               </div>
             </div>
             <SocialComponent />
@@ -88,7 +89,7 @@ const CardComponent = () => {
             <img
               alt="profile"
               className="pictureView"
-              src="https://welchdentalgroup.com/wp-content/uploads/2016/08/laughinggas.jpg"
+              src={defaultData[3].image}
             />
           </div>
           <section class="sectionTwo">
@@ -98,8 +99,8 @@ const CardComponent = () => {
                 <p class="text2">REMARKS:</p>
               </div>
               <div class="textRight">
-                <p class="text3">ADJEKUGHENE DORCAS</p>
-                <p class="text4">A very good developer</p>
+                <p class="text3">{defaultData[3].name}</p>
+                <p class="text4">{defaultData[3].remark}</p>
               </div>
             </div>
             <SocialComponent />
@@ -112,7 +113,7 @@ const CardComponent = () => {
             <img
               alt="profile"
               className="pictureView"
-              src="https://welchdentalgroup.com/wp-content/uploads/2016/08/laughinggas.jpg"
+              src={defaultData[4].image}
             />
           </div>
           <section class="sectionTwo">
@@ -122,8 +123,8 @@ const CardComponent = () => {
                 <p class="text2">REMARKS:</p>
               </div>
               <div class="textRight">
-                <p class="text3">ADJEKUGHENE DORCAS</p>
-                <p class="text4">A very good developer</p>
+                <p class="text3">{defaultData[4].name}</p>
+                <p class="text4">{defaultData[4].remark}</p>
               </div>
             </div>
             <SocialComponent />
@@ -136,7 +137,7 @@ const CardComponent = () => {
             <img
               alt="profile"
               className="pictureView"
-              src="https://welchdentalgroup.com/wp-content/uploads/2016/08/laughinggas.jpg"
+              src={defaultData[5].image}
             />
           </div>
           <section class="sectionTwo">
@@ -146,8 +147,8 @@ const CardComponent = () => {
                 <p class="text2">REMARKS:</p>
               </div>
               <div class="textRight">
-                <p class="text3">ADJEKUGHENE DORCAS</p>
-                <p class="text4">A very good developer</p>
+                <p class="text3">{defaultData[5].name}</p>
+                <p class="text4">{defaultData[5].remark}</p>
               </div>
             </div>
             <SocialComponent />
@@ -163,7 +164,7 @@ const CardComponent = () => {
             <img
               alt="profile"
               className="pictureView"
-              src="https://welchdentalgroup.com/wp-content/uploads/2016/08/laughinggas.jpg"
+              src={defaultData[7].image}
             />
           </div>
           <section class="sectionTwo">
@@ -173,8 +174,8 @@ const CardComponent = () => {
                 <p class="text2">REMARKS:</p>
               </div>
               <div class="textRight">
-                <p class="text3">ADJEKUGHENE DORCAS</p>
-                <p class="text4">A very good developer</p>
+                <p class="text3">{defaultData[7].name}</p>
+                <p class="text4">{defaultData[7].remark}</p>
               </div>
             </div>
             <SocialComponent />

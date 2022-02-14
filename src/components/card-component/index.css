@@ -54,6 +54,7 @@
   width: 100%;
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
+  justify-content: center;
 }
 
 .sectionOneText {
@@ -65,41 +66,50 @@
 .textParent {
   display: flex;
   flex-direction: row;
-  width: 10vw;
+  width: 100%;
 }
 .textLeft {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 100px;
 }
 .textRight {
   display: flex;
   flex-direction: column;
   padding-left: 10px;
+  width: 100%;
+ 
 }
 .text1 {
   font-weight: 500;
-  font-size: 0.9rem;
+  font-size: 1rem;
   padding-bottom: 20px;
   padding-top: 20px;
+  margin-left: 10px;
+  color: rgb(93, 133, 133);
 }
 .text3 {
   font-weight: bold;
-  font-size: 0.9rem;
+  font-size: 1rem;
   padding-bottom: 20px;
   padding-top: 20px;
+  width: inherit;
 }
 .text2 {
   font-weight: 500;
   font-size: 0.9rem;
   padding-bottom: 20px;
   padding-top: 20px;
+  margin-left: 10px;
+  color: rgb(93, 133, 133);
 }
 .text4 {
   font-weight: bold;
   font-size: 0.9rem;
   padding-bottom: 20px;
   padding-top: 20px;
+  padding-right: 10px;
+  width: inherit;
 }
 
 .pictureView {
