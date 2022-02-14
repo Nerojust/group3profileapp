@@ -1,0 +1,25 @@
+.imageView {
+  width: 25px;
+  height: 25px;
+}
+
+@media screen and (max-width: 992px) {
+  .imageView {
+    width: 20px;
+    height: 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .imageView {
+    width: 15px;
+    height: 15px;
+  }
+}
+.socialParentView{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  padding-bottom: 30px;
+  padding-top: 20px;
+}

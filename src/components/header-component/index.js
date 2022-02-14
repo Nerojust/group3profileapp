@@ -3,6 +3,8 @@ import './index.css';
 import lagosLogo from '../images/LSETF.png';
 import gizLogo from '../images/giz.png';
 import germanyLogo from '../images/germanyNigeria.png';
+import 'antd/dist/antd.css';
+import { Carousel } from 'antd';
 
 const HeaderComponent = () => {
   return (
@@ -10,11 +12,18 @@ const HeaderComponent = () => {
       <div className="headerTextView">
         <p className="headerText">WEB DEVELOPMENT TRAINING</p>
       </div>
-      <div className="logoParentView">
-        <img src={lagosLogo} className="logo1" alt="logo" />
-        <img src={germanyLogo} className="logo2" alt="logo" />
-        <img src={gizLogo} className="logo3" alt="logo" />
-      </div>
+
+      <Carousel autoplay className="carousel">
+        <div class="logo">
+          <img src={lagosLogo} className="image" alt="logo" />
+        </div>
+        <div class="logo">
+          <img src={germanyLogo} className="image" alt="logo" />
+        </div>
+        <div class="logo">
+          <img src={gizLogo} className="image" alt="logo" />
+        </div>
+      </Carousel>
     </div>
   );
 };
